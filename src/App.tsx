@@ -93,6 +93,9 @@ const App = () => {
               第 {currentQuizIndex + 1} 题 / 共 {quiz.length} 题
             </h2>
             <p className="text-lg mb-2">{curentQuiz.word.word}</p>
+            <p className="text-sm text-slate-500 mb-4">
+              {curentQuiz.word.pronunciation}
+            </p>
             <div className="space-y-3">
               {curentQuiz.options.map((option, index) => (
                 <button
