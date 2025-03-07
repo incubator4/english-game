@@ -15,7 +15,7 @@ const App = () => {
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
   const [score, setScore] = useState(0);
   const [finished, setFinished] = useState(false);
-  const [userAnswers, setUserAnswers] = useState<Array<string>>([]);
+  // const [userAnswers, setUserAnswers] = useState<Array<string>>([]);
 
   const generateQuiz = (count: number, type: string) => {
     let filteredWords = data;
